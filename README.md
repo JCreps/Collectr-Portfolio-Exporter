@@ -18,10 +18,10 @@
 ## 🎥 Installation & Walkthrough Videos
 
 **Install Guide**  
-[![Install Video](https://img.youtube.com/vi/oM0dze43ExI/0.jpg)](https://www.youtube.com/watch?v=oM0dze43ExI)
+[![Install Video](https://img.youtube.com/vi/oM0dze43ExI/0.jpg)](https://www.youtube.com/watch?v=NTZgzTIgJnQ)
 
 **Full Walkthrough**  
-[![Walkthrough Video](https://img.youtube.com/vi/NTZgzTIgJnQ/0.jpg)](https://www.youtube.com/watch?v=NTZgzTIgJnQ)
+[![Walkthrough Video](https://img.youtube.com/vi/NTZgzTIgJnQ/0.jpg)](https://www.youtube.com/watch?v=oM0dze43ExI)
 
 > 📽️ These videos walk you through installation, setup, and how to export your Collectr portfolio to CSV.
 
