@@ -1,45 +1,51 @@
-# Collectr-Portfolio-Exporter
-Export your Collectr portfolio to a CSV file.
+# collectr portfolio csv exporter
 
-### 🧩 Features
+**collectr portfolio csv exporter** is a lightweight Chrome extension that lets you export your portfolio data from [Collectr](https://app.getcollectr.com) into a clean, customizable CSV file.
+
+---
+
+## 🧩 Features
 
 - Export item name, market value, quantity, and total value
-- Add custom resale percentage columns (e.g., 90%, 75%, etc.)
+- Add resale price percentage columns (e.g., 95%, 90%, 75%)
+- See both per-item and portfolio-wide resale value estimates
 - Round dollar values to the nearest whole number (optional)
-- Custom filename support
-- Compact, modern popup interface
-- No account required – works directly on your portfolio view
+- Custom CSV file name input
+- Sleek, scroll-free popup interface
 
-### 🛠️ How It Works
+---
 
-1. Go to your Collectr portfolio on [app.getcollectr.com](https://app.getcollectr.com)
-2. Open the extension popup
-3. Select the fields and price settings you want
+## 🎥 Installation & Walkthrough Videos
+
+**Install Guide**  
+[![Install Video](https://img.youtube.com/vi/oM0dze43ExI/0.jpg)](https://www.youtube.com/watch?v=oM0dze43ExI)
+
+**Full Walkthrough**  
+[![Walkthrough Video](https://img.youtube.com/vi/NTZgzTIgJnQ/0.jpg)](https://www.youtube.com/watch?v=NTZgzTIgJnQ)
+
+> 📽️ These videos walk you through installation, setup, and how to export your Collectr portfolio to CSV.
+
+---
+
+## 🚀 How to Use
+
+1. Visit your portfolio on [Collectr](https://app.getcollectr.com)
+2. Click the extension icon in your Chrome toolbar
+3. Choose export fields, resale percentages, rounding, and filename
 4. Click **Download CSV**
 
-> ℹ️ This extension runs entirely in your browser – no data is collected or stored.
+> ⚠️ Be sure you're on a supported page (not `chrome://` or `file://`) when using the extension.
 
 ---
 
-### 📸 Screenshots
+## 💾 How to Install (Without Git)
 
-<p align="center">
-  <img src="popup example.png" width="auto" />
-</p>
+To install the extension manually:
 
----
-
-
-## 💾 How to Install
-
-To install the extension without using Git or GitHub commands:
-
-1. Download the ZIP of this repository and extract it
-2. Open any **Chrome** type browser and go to extension settings
-3. Turn on **Developer mode** (toggle at the top right)
+1. Download and extract this repository as a ZIP file
+2. Open Chrome and go to `chrome://extensions`
+3. Enable **Developer mode** in the top right
 4. Click **“Load unpacked”**
-5. Select the folder containing the extracted files
+5. Select the extracted folder
 
-You’ll now see the extension icon in your toolbar.
-
----
+You’ll now see the extension icon in your Chrome toolbar.
