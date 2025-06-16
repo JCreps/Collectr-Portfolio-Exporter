@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+        padding: 12px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        background: #f9f9f9;
+        width: 300px;
+      }
+
+      .logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 8px;
+      }
+
+      .logo img {
+        width: 100%;
+        max-width: 200px;
+        max-height: 40px;
+        object-fit: contain;
+      }
+
+      .section {
+        background: white;
+        border-radius: 8px;
+        padding: 10px 12px;
+        margin-bottom: 10px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      }
+
+      h3 {
+        margin: 0 0 6px;
+        font-size: 14px;
+        color: #333;
+        font-weight: 600;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 2px;
+      }
+
+      label {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        margin: 4px 0;
+      }
+
+      input[type="checkbox"] {
+        margin-right: 6px;
+      }
+
+      input[type="text"],
+      input[type="number"] {
+        width: 100%;
+        padding: 6px;
+        margin-top: 4px;
+        font-size: 13px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      .checkbox-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4px 8px;
+        margin-bottom: 6px;
+      }
+
+      .inline {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 13px;
+        margin-top: 6px;
+      }
+
+      .inline input[type="number"] {
+        flex: 1;
+        padding: 4px;
+      }
+
+      button {
+        width: 100%;
+        padding: 10px;
+        background-color: #28a745;
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        margin-top: 6px;
+      }
+
+      button:hover {
+        background-color: #218838;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo">
+      <img src="popup banner.png" alt="portfolio exporter logo" />
+    </div>
+
+    <form id="export-form">
+      <div class="section">
+        <h3>Export Fields</h3>
+        <label><input type="checkbox" name="name" checked /> Item Name</label>
+        <label><input type="checkbox" name="price" checked /> Market Value</label>
+        <label><input type="checkbox" name="quantity" checked /> Quantity</label>
+        <label><input type="checkbox" name="total" checked /> Total Value</label>
+        <label><input type="checkbox" name="round" /> Round to Nearest Dollar</label>
+      </div>
+
+      <div class="section">
+        <h3>Market Price Options</h3>
+        <div class="checkbox-grid">
+          <label><input type="checkbox" name="resale" value="95" /> 95%</label>
+          <label><input type="checkbox" name="resale" value="90" /> 90%</label>
+          <label><input type="checkbox" name="resale" value="85" /> 85%</label>
+          <label><input type="checkbox" name="resale" value="80" /> 80%</label>
+          <label><input type="checkbox" name="resale" value="75" /> 75%</label>
+        </div>
+        <label class="inline">
+          <input type="checkbox" id="otherCheck" name="resale" value="other" />
+          Other (%):
+          <input type="number" id="otherInput" placeholder="e.g. 70" min="1" max="99" disabled />
+        </label>
+      </div>
+
+      <div class="section">
+        <h3>Export Options</h3>
+        <input type="text" name="filename" id="filename" placeholder="collectr_portfolio.csv" />
+      </div>
+
+      <button type="submit">Download CSV</button>
+    </form>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
