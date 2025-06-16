@@ -29,9 +29,17 @@ Export your Collectr portfolio to a CSV file.
 
 ---
 
-### 🧪 Local Development
 
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/yourusername/collectr-csv-exporter.git
-   cd collectr-csv-exporter
+## 💾 How to Install (No Git Required)
+
+To install the extension without using Git or GitHub commands:
+
+1. Download the ZIP of this repository and extract it
+2. Open any **Chrome** type browser and go to extension settings
+3. Turn on **Developer mode** (toggle at the top right)
+4. Click **“Load unpacked”**
+5. Select the folder containing the extracted files
+
+You’ll now see the extension icon in your toolbar.
+
+---
