@@ -14,7 +14,7 @@ This is a lightweight Chrome extension that lets you export your portfolio data 
 - Sleek, scroll-free popup interface
 
 
-<p align="center"> <img src="popup example.png" width="75" alt="Extension Popup UI" /> </p>
+<p align="center"> <img src="popup example.png" width="75%" alt="Extension Popup UI" /> </p>
 
 
 
