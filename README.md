@@ -24,7 +24,7 @@ Export your Collectr portfolio to a CSV file.
 ### 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/popup.png" width="280" />
+  <img src="screenshots/popup example.png" width="auto" />
 </p>
 
 ---
