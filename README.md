@@ -1,4 +1,4 @@
-# Collectr Portfolio csv Exporter
+# Collectr Portfolio CSV Exporter
 
 This is a lightweight Chrome extension that lets you export your portfolio data from [Collectr](https://app.getcollectr.com) into a clean, customizable CSV file.
 
