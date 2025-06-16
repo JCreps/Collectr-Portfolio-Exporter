@@ -39,7 +39,7 @@ This is a lightweight Chrome extension that lets you export your portfolio data 
 3. Choose export fields, resale percentages, rounding, and filename
 4. Click **Download CSV**
 
-> ⚠️ Be sure you're on a supported page (not `chrome://` or `file://`) when using the extension.
+> ⚠️ Be sure you're on your portfolio page when using the extension, it will not work anywhere else.
 
 ---
 
