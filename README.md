@@ -13,6 +13,11 @@ This is a lightweight Chrome extension that lets you export your portfolio data 
 - Custom CSV file name input
 - Sleek, scroll-free popup interface
 
+
+<p align="center"> <img src="popup example.png" width="auto" alt="Extension Popup UI" /> </p>
+
+
+
 ---
 
 ## 🎥 Installation & Walkthrough Videos
