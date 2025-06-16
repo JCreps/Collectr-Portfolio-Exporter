@@ -30,7 +30,7 @@ Export your Collectr portfolio to a CSV file.
 ---
 
 
-## 💾 How to Install (No Git Required)
+## 💾 How to Install
 
 To install the extension without using Git or GitHub commands:
 
