@@ -38,7 +38,7 @@
 
 ---
 
-## 💾 How to Install (Without Git)
+## 💾 How to Install 
 
 To install the extension manually:
 
